@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: openmrs-deploy
 spec:
-  replicas: 2
+  replicas: 3
   minReadySeconds: 30
   strategy:
     type: RollingUpdate
